@@ -1,11 +1,10 @@
-
 <!doctype html>
 <html>
 <head>
   <title>乐陶陶</title>
   <style>
     body {
-      background-image: url('乐陶陶4.png');
+      background-image: url('D:\乐陶陶4.png');
       background-size: cover;
       font-family: '楷体';
       display: flex;
@@ -28,7 +27,7 @@
       width: 100%;
       max-width: 800px; /* 限制最大宽度 */
     }
-.button-container a {
+    .button-container a {
       display: inline-block;
       padding: 15px 30px;
       margin: 10px;
@@ -40,6 +39,7 @@
       position: relative;
       overflow: hidden;
       z-index: 1;
+      text-decoration: none; /* 去除下划线 */
     }
     .button-container a:before {
       content: '';
@@ -60,7 +60,7 @@
       text-shadow: 0 0 5px white; /* 悬停时添加白色文字阴影 */
       border-color: white;
     }
-.button-container p:hover {
+    .button-container p:hover {
       background-color: black; /* 悬停时背景变为黑色 */
       color: white; /* 悬停时文字变为白色 */
       transform: scale(1.05); /* 悬停时稍微放大 */
@@ -69,28 +69,28 @@
 </head>
 <body>
   <h2 class="center"><strong>欢迎来到乐陶陶</strong></h2>
-<h3 class="center">让我来为你介绍</h3>
+  <h3 class="center">让我来为你介绍</h3>
   <div class="button-container">
-    文物历史
-    推荐文物
-    浏览路线
-    购物中心
+    <a href="文物介绍.html">文物历史</a>
+    <a href="文物列表.html">推荐文物</a>
+    <a href="浏览路线.html">浏览路线</a>
+    <a href="购物中心.html">购物中心</a>
   </div>
   <div class="button-container">
-    社区
-    个人中心
+    <a href="交流社区.html">社区</a>
+    <a href="个人中心.html">个人中心</a>
   </div>
-<div class="button-container">
-  <h3>请选择人物&nbsp;</h3>
-  <h3>请选择交流方式&nbsp;</h3>
-</div>
-<div class="button-container">
-     <p>&nbsp;用户&nbsp;</p >
-    <p>语音交互</p >
-</div>
-<div class="button-container">
-    <p>乐陶陶</p >
-    <p>文字交互</p >
+  <div class="button-container">
+    <h3>请选择人物&nbsp;</h3>
+    <h3>请选择交流方式&nbsp;</h3>
+  </div>
+  <div class="button-container">
+    <a href="用户页面的链接">用户</a>
+    <a href="语音交互页面的链接">语音交互</a>
+  </div>
+  <div class="button-container">
+    <a href="乐陶陶页面的链接">乐陶陶</a>
+    <a href="文字交互页面的链接">文字交互</a>
   </div>
 </body>
 </html>
