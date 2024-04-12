@@ -1,0 +1,96 @@
+
+<!doctype html>
+<html>
+<head>
+  <title>乐陶陶</title>
+  <style>
+    body {
+      background-image: url('D:\乐陶陶4.png');
+      background-size: cover;
+      font-family: '楷体';
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      justify-content: center;
+      align-items: center;
+      color: black; /* 将文本颜色设置为黑色 */
+    }
+    h2, h3 {
+      margin: 20px 0;
+    }
+    .center {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .button-container {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      max-width: 800px; /* 限制最大宽度 */
+    }
+.button-container a {
+      display: inline-block;
+      padding: 15px 30px;
+      margin: 10px;
+      border: 2px solid black; /* 将边框颜色设置为黑色 */
+      border-radius: 25px;
+      color: black; /* 将链接文字颜色设置为黑色 */
+      font-size: 1.1em;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
+    .button-container a:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      background: rgba(255, 255, 255, 0.5);
+      opacity: 0;
+      transition: all 0.3s ease;
+      transform: translate(-50%, -50%) rotate(45deg);
+      z-index: -1;
+    }
+    .button-container a:hover {
+      background-color: white; /* 悬停时背景变为白色 */
+      color: black; /* 文字颜色保持黑色 */
+      text-shadow: 0 0 5px white; /* 悬停时添加白色文字阴影 */
+      border-color: white;
+    }
+.button-container p:hover {
+      background-color: black; /* 悬停时背景变为黑色 */
+      color: white; /* 悬停时文字变为白色 */
+      transform: scale(1.05); /* 悬停时稍微放大 */
+    }
+  </style>
+</head>
+<body>
+  <h2 class="center"><strong>欢迎来到乐陶陶</strong></h2>
+<h3 class="center">让我来为你介绍</h3>
+  <div class="button-container">
+    文物历史
+    推荐文物
+    浏览路线
+    购物中心
+  </div>
+  <div class="button-container">
+    社区
+    个人中心
+  </div>
+<div class="button-container">
+  <h3>请选择人物&nbsp;</h3>
+  <h3>请选择交流方式&nbsp;</h3>
+</div>
+<div class="button-container">
+     <p>&nbsp;用户&nbsp;</p >
+    <p>语音交互</p >
+</div>
+<div class="button-container">
+    <p>乐陶陶</p >
+    <p>文字交互</p >
+  </div>
+</body>
+</html>
