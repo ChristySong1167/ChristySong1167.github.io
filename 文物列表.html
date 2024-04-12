@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文物列表</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #bdf4f0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .artifact-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .artifact {
+            width: calc(50% - 10px);
+            margin-bottom: 20px;
+            background-color: #9fe6f1;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .artifact img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px 5px 0 0;
+        }
+        .artifact-content {
+            padding: 10px;
+        }
+        .artifact-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .artifact-description {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>文物列表</h1>
+
+        <div class="artifact-list">
+            <div class="artifact">
+                <img src="artifact1.jpg" alt="文物1">
+                <div class="artifact-content">
+                    <div class="artifact-title">雍正瓷釉</div>
+                    <div class="artifact-description">大胖橘审美真的棒，那个粉色瓶子好好看啊</div>
+                </div>
+            </div>
+
+            <div class="artifact">
+                <img src="artifact2.jpg" alt="文物2">
+                <div class="artifact-content">
+                    <div class="artifact-title">青花瓷</div>
+                    <div class="artifact-description">天青色等烟雨，而我在等你</div>
+                </div>
+            </div>
+
+            <div class="artifact">
+                <img src="artifact3.jpg" alt="文物3">
+                <div class="artifact-content">
+                    <div class="artifact-title">梅花瓶子</div>
+                    <div class="artifact-description">逆风如解意，容易莫摧残</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
